@@ -1,5 +1,4 @@
-# PJ1
-Programovací Jazyky 1
+# PJ1 - Programovací Jazyky 1
 
 ## Cíle předmětu vyjádřené dosaženými dovednostmi a kompetencemi
 Seznámit studenty s možností tvorby objektově orientovaných aplikací v rámci platformy Java. Po absolvování předmětu
