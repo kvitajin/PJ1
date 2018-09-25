@@ -57,30 +57,30 @@ Předmět nemá žádné korekvizity.
 ## Osnova předmětu
 Náplň přednášek 
 
-*Úvod do jazyka Java. 
-*Objektové rysy jazyka. 
-*Vývoj samostatných aplikací. 
-*Model událostí. 
-*Grafické uživatelské rozhraní v Javě. 
-*Kontejnery. 
-*Generické typy a použití u kontejnerů. 
-*Zpracování výjímek 
-*Základní práce se soubory – vstup/výstup 
-*Princip datových proudů. 
-*Paralelismus a souběžná vlákna provádění programu. 
-*Další pokročilejší aspekty technologie JAVA – java.lang.reflection, anotace. 
-*Lambda výrazy, streamy, práce s časem a datem.
+* Úvod do jazyka Java. 
+* Objektové rysy jazyka. 
+* Vývoj samostatných aplikací. 
+* Model událostí. 
+* Grafické uživatelské rozhraní v Javě. 
+* Kontejnery. 
+* Generické typy a použití u kontejnerů. 
+* Zpracování výjímek 
+* Základní práce se soubory – vstup/výstup 
+* Princip datových proudů. 
+* Paralelismus a souběžná vlákna provádění programu. 
+* Další pokročilejší aspekty technologie JAVA – java.lang.reflection, anotace. 
+* Lambda výrazy, streamy, práce s časem a datem.
 
 Náplň počítačových cvičení:
-*Seznámení s vývojovým prostředím a spouštění JAVA aplikací. 
-*Vytvoření a spuštění jednoduché konzolové JAVA aplikace - "Ahoj světe". 
-*Realizace základních algoritmických a objektově orientovaných konstrukcí v JAVĚ. 
-*Tvorba jednoduchých aplikací s grafickým uživatelským rozhraním. 
-*Využití kontejnerů. 
-*Implementace s generickými datovými typy. 
-*Zpracování výjímek 
-*Základní práce se soubory – vstup/výstup. 
-*Využití datových proudů. 
-*Programování pomocí vláken a jejich synchronizace. 
-*Práce s java.lang.reflection a s anotacemi u tříd.
-*Základy GUI.
+* Seznámení s vývojovým prostředím a spouštění JAVA aplikací. 
+* Vytvoření a spuštění jednoduché konzolové JAVA aplikace - "Ahoj světe". 
+* Realizace základních algoritmických a objektově orientovaných konstrukcí v JAVĚ. 
+* Tvorba jednoduchých aplikací s grafickým uživatelským rozhraním. 
+* Využití kontejnerů. 
+* Implementace s generickými datovými typy. 
+* Zpracování výjímek 
+* Základní práce se soubory – vstup/výstup. 
+* Využití datových proudů. 
+* Programování pomocí vláken a jejich synchronizace. 
+* Práce s java.lang.reflection a s anotacemi u tříd.
+* Základy GUI.
