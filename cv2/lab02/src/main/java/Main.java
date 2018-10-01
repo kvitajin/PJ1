@@ -28,14 +28,16 @@ public class Main {
 
 
 
-
-
-
-
-    //Canvas.getInstance();
+    Canvas.getInstance();
+//
 //    int x=IO.enter("Enter x value:", 20);
 //    int y=IO.enter("Enter y value:", 20);
-//    System.out.println(x);
-//    System.out.println(y);
+//    Pacman pac = new Pacman(x, y, Direction8.NONE);
+//    pac.paint();
+//    for (int i = 0; i < 10; i++) {
+//      pac.moveRight(10);
+//      Thread.sleep(1000);
+
+    //}
   }
 }

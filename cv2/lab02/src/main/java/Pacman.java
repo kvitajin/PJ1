@@ -24,12 +24,22 @@ public class Pacman {
 
   private Direction8 direction;
 
+  private Arc _head;
+
+  private Ellipse _eye;
+
   //TODO 1. deklarace hlavy a oka - instanční proměnné
+
 
   public Pacman(int x, int y, Direction8 direction) {
     this.xPos = x;
     this.yPos = y;
     this.direction = direction;
+
+    this._head= new Arc(x, y, SIZE, SIZE, MyColor.getColor("zluta"), Direction8.EAST, computeAngle());
+    this._eye = new Ellipse(getEyeX(), getEyeY(), getEyeSize(), getEyeSize(), MyColor.BLACK);
+
+
     //TODO 2. doplnit vytvoreni hlavy a oka
     //hlavu realizuje Arc
     // -pozice - x,y
@@ -37,6 +47,7 @@ public class Pacman {
     // -barva - zluta (MyColor.getColor("zluta"))
     // -úhel - volání metody computeAngle
     // -orientace - opačná ke směru (metoda celemVzad volaná na směr - proměnná direction)
+
     //oko realizue Ellipse
     // -pozice x,y - getEyeX(), getEyeY() - volání členských metod
     // -rozmer - getEyeSize(), getEyeSize() - volání členských metod
@@ -61,11 +72,16 @@ public class Pacman {
 
   public void erase() {
     //TODO 3. zavolat erase na oko a hlavu
+    this._eye.erase();
+    this._head.erase();
   }
 
   public void paint() {
 
     //TODO 4. zavolat paint na oko a hlavu
+    this._head.paint();
+    this._eye.paint();
+
   }
 
   public void moveRight(int step) {
