@@ -7,11 +7,13 @@
  ******************************************************************************/
 package pl1.lab04;
 
+import java.util.Objects;
+
 /**
  * @author Jan Kožusznik
  * @version 0.1
  */
-public class Date {
+public class Date implements Comparable{
 
   private int dayOfMonth;
 
@@ -52,4 +54,28 @@ public class Date {
     return year;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Date date = (Date) o;
+    return dayOfMonth == date.dayOfMonth &&
+            month == date.month &&
+            year == date.year;
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(dayOfMonth, month, year);
+  }
+
+  @Override
+  public int compareTo(Object o) {
+    Date date= (Date) o;
+    int ret=0;
+    if (this.dayOfMonth > date.dayOfMonth) ret=1;
+    if (this.dayOfMonth== date.dayOfMonth) ret=0;
+    if (this.dayOfMonth < date.dayOfMonth) ret=-1;
+    return ret;
+  }
 }
