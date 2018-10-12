@@ -25,4 +25,10 @@ public class QuadraticEquation {
   private double discriminant(double a, double b, double c){
     return Math.pow(b, 2)-(4*a*c);
   }
+  public int numberOfSolutions(double a, double b, double c){
+    double D=discriminant(a, b, c);
+    if      (D>0)  return 2;
+    else if (D==0) return 1;
+    else           return 0;
+  }
 }

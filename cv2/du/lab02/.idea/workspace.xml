@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de535cf3-fc1a-40e4-ab7b-475d40cbe730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../cv/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kvitajin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../cv3/lab03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../cv3/lab03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../cv3/lab03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../cv3/lab03/lab03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../cv3/lab03/src/pl1/lab03/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../cv3/lab03/src/pl1/shapes/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../funguj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../funguj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/lab04/Pacman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv3/lab03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv3/lab03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv3/lab03/src/pl1/lab03/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv3/lab03/src/pl1/lab03/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/bin/pl1/canvas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/bin/pl1/canvas/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/bin/pl1/lab04/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/bin/pl1/lab04/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/bin/pl1/lab04/Run0400.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/bin/pl1/lab04/Run0400.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/canvas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/canvas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/lab04/Run0400.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/lab04/Run0400.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/shapes/Arc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cv4/lab04/src/pl1/shapes/Arc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +25,16 @@
     <session id="-177321034">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,11 +82,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Pacman.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1035">
-                  <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+                <state relative-caret-position="166">
+                  <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -92,8 +94,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Ellipse.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4245">
-                  <caret line="307" column="79" selection-start-line="306" selection-start-column="4" selection-end-line="307" selection-end-column="79" />
+                <state relative-caret-position="286">
+                  <caret line="325" column="4" selection-start-line="325" selection-start-column="4" selection-end-line="325" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#10237#10238#0" expanded="true" />
+                    <element signature="e#10262#10263#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -101,17 +107,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Arc.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="180">
+                  <caret line="81" column="75" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="81" selection-end-column="75" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+                <state relative-caret-position="-810">
+                  <caret line="19" column="68" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="68" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -139,7 +145,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Canvas.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1169">
+                <state relative-caret-position="15">
                   <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
                   <folding>
                     <element signature="docComment;method#setColorOfForeground#0;class#Canvas#0" />
@@ -156,12 +162,12 @@
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/manipulation_panel.fxml">
-              <provider editor-type-id="JavaFX-Scene-Builder" />
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
                   <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
                 </state>
               </provider>
+              <provider editor-type-id="JavaFX-Scene-Builder" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -206,10 +212,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="21" />
+    <option name="y" value="1227" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,9 +223,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,11 +256,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538486570284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539381847493" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -318,10 +324,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="21" y="1227" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2724359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27884614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -331,7 +337,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32930845" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,27 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ellipse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4245">
-          <caret line="307" column="79" selection-start-line="306" selection-start-column="4" selection-end-line="307" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Arc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Direction8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -451,7 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
+        <state relative-caret-position="15">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="docComment;method#setColorOfForeground#0;class#Canvas#0" />
@@ -466,12 +451,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/manipulation_panel.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -482,14 +467,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ellipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="325" column="4" selection-start-line="325" selection-start-column="4" selection-end-line="325" selection-end-column="4" />
+          <folding>
+            <element signature="e#10237#10238#0" expanded="true" />
+            <element signature="e#10262#10263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="-810">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="68" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="81" column="75" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="81" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
         </state>
       </provider>
     </entry>

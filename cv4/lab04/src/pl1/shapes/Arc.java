@@ -81,7 +81,9 @@ public class Arc {
   }
 
   public void erase() {
-    repaint(CANVAS.getColorOfBackground());
+
+    CANVAS.setColorOfForeground(CANVAS.getColorOfBackground());
+    CANVAS.fill(new java.awt.Rectangle(xPos-1, yPos-1, width+2, height+2));
   }
 
 //== PRISTUPOVE METODY ATRIBUTU INSTANCI =======================================

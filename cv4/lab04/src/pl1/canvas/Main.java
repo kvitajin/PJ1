@@ -8,6 +8,8 @@
 package pl1.canvas;
 
 import pl1.shapes.Triangle;
+import pl1.lab04.Pacman;
+import pl1.types.Direction8;
 
 /**
  * @author Jan Kožusznik
@@ -15,9 +17,11 @@ import pl1.shapes.Triangle;
  */
 public class Main {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws InterruptedException{
     Canvas.getInstance();
-    new Triangle(10, 10, 50, 60);
+    //new Triangle(10, 10, 50, 60);
+    Pacman pacman =new Pacman(10, 10, Direction8.SOUTHEAST);
+    pacman.animate(100,100, 0,50,0,0,100, 100);
   }
 
 }

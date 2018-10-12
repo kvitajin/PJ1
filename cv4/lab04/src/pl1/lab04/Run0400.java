@@ -39,3 +39,22 @@ public class Run0400 {
 //todo hw pacman new pacman()
 //p.animate p1, p2, p3 int neco , int milis )
 //edvard kubanda
+
+/*
+
+for ( i = 0; i < 60; i ++ )
+        {
+        int x1 = xc + r * cos ( i * M_PI / 30 );
+        int y1 = yc + r * sin ( i * M_PI / 30 );
+        int rr = i % 5 == 0 ? 0.85 * r : 0.92 * r;
+        int x2 = xc + rr * cos ( i * M_PI / 30 );
+        int y2 = yc + rr * sin ( i * M_PI / 30 ); */
+
+/*  static void        drawHand  ( SDL_Renderer* dst,int xc, int yc, int r, int v )
+  {
+    int x = xc + r * cos ( ( 15 - v ) * M_PI / 30 );
+    int y = yc - r * sin ( ( 15 - v ) * M_PI / 30 );
+
+    SDL_RenderDrawLine ( dst, xc, yc, x, y );
+  }
+*/
