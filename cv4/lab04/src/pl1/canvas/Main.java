@@ -20,8 +20,8 @@ public class Main {
   public static void main(String[] args) throws InterruptedException{
     Canvas.getInstance();
     //new Triangle(10, 10, 50, 60);
-    Pacman pacman =new Pacman(10, 10, Direction8.SOUTHEAST);
-    pacman.animate(100,100, 0,50,0,0,100, 100);
+    Pacman pacman =new Pacman(10, 10, Direction8.SOUTHWEST);
+    pacman.animate(0,0, 0,50, 100,100,100, 50);
   }
 
 }
