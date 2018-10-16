@@ -178,7 +178,7 @@ public class Pacman {
       }
       D = D + 2 * dy;
       Thread.sleep(delay);
-      System.out.println("line low");
+      //System.out.println("line low");
     }
   }
   private void plotLineLowUp(int x0,int y0, int x1,int y1, int delay)throws InterruptedException {
@@ -191,7 +191,7 @@ public class Pacman {
     }
     int D = 2 * dy - dx;
     int y = y0;
-    System.out.println("X0: "+x0+" y: "+y0+ "\nX1: "+x1+" y1: "+y+ " \ndx: "+dx+" dy: "+dy  );
+    //System.out.println("X0: "+x0+" y: "+y0+ "\nX1: "+x1+" y1: "+y+ " \ndx: "+dx+" dy: "+dy  );
     for (int x = x0; x >x1; x--) {
       setPosition(x, y);
       if (D > 0) {
@@ -200,7 +200,7 @@ public class Pacman {
       }
       D = D + 2 * dy;
       Thread.sleep(delay);
-      System.out.println("line LUP");
+      //System.out.println("line LUP");
     }
   }
   private void plotLineHigh(int x0,int y0,int x1,int y1, int delay) throws InterruptedException {
@@ -221,7 +221,7 @@ public class Pacman {
       }
       D = D + 2 * dx;
       Thread.sleep(delay);        //todo tohle pujde modulovat a tim udelat krok
-      System.out.println("line high");
+      //System.out.println("line high");
 
     }
   }
@@ -243,7 +243,7 @@ public class Pacman {
       }
       D = D + 2 * dx;
       Thread.sleep(delay);        //todo tohle pujde modulovat a tim udelat krok
-      System.out.println("line HUP");
+      //System.out.println("line HUP");
     }
   }
 
@@ -270,7 +270,6 @@ public class Pacman {
         System.out.println("4");
 
       }
-
     }
   }
 
