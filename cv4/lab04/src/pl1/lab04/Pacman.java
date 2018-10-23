@@ -199,7 +199,7 @@ public class Pacman {
         D = D - 2 * dx;
       }
       D = D + 2 * dy;
-      Thread.sleep(delay);
+      Thread.sleep(100);//delay);
       //System.out.println("line LUP");
     }
   }

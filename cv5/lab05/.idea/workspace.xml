@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92689547-8892-404f-9bad-c8ac6e05ded3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/bin/pl1/lab04/Pacman.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/bin/pl1/lab04/Pacman.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/src/pl1/lab04/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/src/pl1/lab04/Pacman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kvi0029-zp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/Canvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/CanvasPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/Resizing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/manipulation_panel.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Arc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Ellipse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/EllipseInRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Area.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Dimension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Direction8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/MyColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/utils/IO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/utils/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/zt1/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl1/canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl1/canvas/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl1/shapes/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl1/shapes/Pacman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl1/types/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl1/types/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv6/pl1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv6/pl1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv6/pl1/shapes/EllipseInRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv6/pl1/shapes/EllipseInRectangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +41,12 @@
     <session id="1405554643">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl1/shapes/Pacman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
+            <state relative-caret-position="1751">
               <caret line="112" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="e#2357#2358#0" expanded="true" />
@@ -90,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl1/canvas/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="216" selection-start-line="216" selection-end-line="216" />
+            <state relative-caret-position="1497">
+              <caret line="204" column="14" lean-forward="true" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,8 +142,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +196,6 @@
         </subPane>
       </pane>
       <pane id="Course" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,8 +253,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26602563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2724359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -298,7 +318,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl1/shapes/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
+        <state relative-caret-position="1751">
           <caret line="112" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#2357#2358#0" expanded="true" />
@@ -318,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl1/canvas/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        <state relative-caret-position="1497">
+          <caret line="204" column="14" lean-forward="true" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

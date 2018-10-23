@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="328f3fbd-0c5a-4459-8576-740604733922" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../cv2/du/lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv2/du/lab02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv5/lab05/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pl1/canvas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pl1/canvas/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pl1/lab04/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pl1/lab04/Date.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pl1/lab04/Run0400.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pl1/lab04/Run0400.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pl1/shapes/Arc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pl1/shapes/Arc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl1/canvas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl1/canvas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pl1/lab04/Pacman.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pl1/lab04/Pacman.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl1/lab04/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl1/lab04/Pacman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/canvas/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/shapes/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/shapes/Pacman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/types/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/types/Position.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,41 +22,44 @@
     <session id="1688876894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3069" />
-          <entry key="txt" value="99" />
+          <entry key="java" value="3090" />
+          <entry key="txt" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3069" />
-          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="JAVA" value="3090" />
+          <entry key="PLAIN_TEXT" value="113" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl1/canvas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -71,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl1/lab04/Pacman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="291" column="36" lean-forward="true" selection-start-line="291" selection-start-column="36" selection-end-line="291" selection-end-column="36" />
+            <state relative-caret-position="3213">
+              <caret line="201" column="24" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +83,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl1/types/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl1/types/Direction8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2267">
+            <state relative-caret-position="289">
               <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
@@ -92,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl1/shapes/Arc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="85" column="75" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
+            <state relative-caret-position="1326">
+              <caret line="88" column="80" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -121,8 +133,9 @@
         <option value="$PROJECT_DIR$/src/pl1/lab04/Date.java" />
         <option value="$PROJECT_DIR$/src/pl1/lab04/Run0400.java" />
         <option value="$PROJECT_DIR$/src/pl1/shapes/Arc.java" />
-        <option value="$PROJECT_DIR$/src/pl1/lab04/Pacman.java" />
         <option value="$PROJECT_DIR$/src/pl1/canvas/Main.java" />
+        <option value="$PROJECT_DIR$/src/pl1/lab04/Pacman.java" />
+        <option value="$PROJECT_DIR$/src/pl1/types/Position.java" />
       </list>
     </option>
   </component>
@@ -136,10 +149,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,15 +209,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539436578329" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540282054630" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cv5/lab05" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,13 +288,20 @@
       <option name="project" value="LOCAL" />
       <updated>1539382106210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hotove cviko 4">
+      <created>1539705491864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539705491864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27564102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,27 +335,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pacman,funguje poohyb v trojuhelniku na vsechny kladne smery, naopak je to v pici" />
-    <option name="LAST_COMMIT_MESSAGE" value="pacman,funguje poohyb v trojuhelniku na vsechny kladne smery, naopak je to v pici" />
+    <MESSAGE value="hotove cviko 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotove cviko 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pl1/lab04/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl1/shapes/Arc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="85" column="75" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl1/types/Direction8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2267">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -346,16 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl1/lab04/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="291" column="36" lean-forward="true" selection-start-line="291" selection-start-column="36" selection-end-line="291" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl1/canvas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -363,6 +360,37 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl1/lab04/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="201" column="24" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl1/types/Direction8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl1/shapes/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="88" column="80" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl1/types/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
