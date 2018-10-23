@@ -2,24 +2,23 @@ package pl1.types;
 
 
 /*******************************************************************************
- * Třída {@code Pozice} slouží jako přepravka uchovávající informace
- * o pozici objektu. 
- * Proto jsou její atributy deklarovány jako veřejné konstanty.
+ * Třída {@code Rozměr} slouží jako přepravka k uchovávání informací o rozměru 
+ * objektů. Proto jsou její atributy deklarovány jako veřejné konstanty.
  *
  * @author     Rudolf Pecinovský
- * @version    2.02, 18.2.2005
+ * @version    2.01, duben 2004
  */
-public class Position
+public class Dimension
 {
 //== KONSTANTNÍ ATRIBUTY TŘÍDY =================================================
 //== PROMĚNNÉ ATRIBUTY TŘÍDY ===================================================
 //== KONSTANTNÍ ATRIBUTY INSTANCÍ ==============================================
 
-    /** Vodorovná souřadnice dané pozice. */
-    public  int x;
+    /** Šířka objektu. */
+    public final int width;
 
-    /** Svislá souřadnice dané pozice. */
-    public  int y;
+    /** Výška objektu. */
+    public final int height;
 
 
 
@@ -31,14 +30,15 @@ public class Position
 //== KONSTRUKTORY A TOVÁRNÍ METODY =============================================
 
     /***************************************************************************
-     * Vytvoří instanci se zadanými souřadnicemi.
-     *  @param x  Vodorovná souřadnice.
-     * @param y  Svislá souřadnice.
+     * Vytvoří instanci se zadanými rozměry.
+     *
+     * @param width  Šířka objektu.
+     * @param height  Výška objektu.
      */
-    public Position(int x, int y )
-    { 
-        this.x  = x;
-        this.y  = y;
+    public Dimension( int width, int height )
+    {
+        this.width = width;
+        this.height = height;
     }
 
 
@@ -46,52 +46,44 @@ public class Position
 //== ABSTRAKTNÍ METODY =========================================================
 //== PŘÍSTUPOVÉ METODY VLASTNOSTÍ INSTANCÍ =====================================
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-
     /***************************************************************************
-     * Vrátí hodnotu vodorovné souřadnice dané pozice.
+     * Vrátí velikost šířky objektu.
      *
-     * @return  Požadovaná souřadnice.
+     * @return  Šířka objektu.
      */
-    public int getX()
+    public int getWidth()
     {
-        return x;
+        return width;
     }
 
 
     /***************************************************************************
-     * Vrátí hodnotu svislé souřadnice dané pozice.
+     * Vrátí velikost výšky objektu.
      *
-     * @return  Požadovaná souřadnice.
+     * @return  Výška objektu.
      */
-    public int getY()
+    public int getHeight()
     {
-        return y;
+        return height;
     }
 
 
 //== OSTATNÍ NESOUKROMÉ METODY INSTANCÍ ========================================
 
     /***************************************************************************
-     * Vrátí informaci o tom, reprezentuje-li zadaná instance stejnou pozici
+     * Vrátí informaci o tom, reprezentuje-li zadaná instance stejný rozměr 
      * jako objekt zadaný jako parametr.
      *
      * @param  o Objekt, s nímž je daná instance porovnávána
-     * @return {@code true} reprezentuje-li objekt stejnou pozici, 
+     * @return {@code true} reprezentuje-li objekt stejný rozměr, 
      *         jinak {@code false}
      */
     @Override
     public boolean equals( Object o )
     {
-        return (o instanceof Position )   &&
-               (((Position)o).x  ==  x)   && 
-               (((Position)o).y  ==  y);
+        return (o instanceof Dimension)            &&
+               (((Dimension)o).width  ==  width)   && 
+               (((Dimension)o).height  ==  height);
     }
 
 
@@ -104,11 +96,11 @@ public class Position
     @Override
     public String toString()
     {
-        return "Pozice[x=" + x + ",y=" + y + "]";
+        return "Rozměr[šířka=" + width + ", výška=" + height + "]";
     }
 
 
-
+//== NOVĚ ZAVEDENÉ METODY INSTANCÍ =============================================
 //== SOUKROMÉ A POMOCNÉ METODY TŘÍDY ===========================================
 //== SOUKROMÉ A POMOCNÉ METODY INSTANCÍ ========================================
 //== VNOŘENÉ A VNITŘNÍ TŘÍDY ===================================================

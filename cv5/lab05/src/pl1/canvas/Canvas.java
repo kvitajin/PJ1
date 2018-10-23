@@ -1,4 +1,5 @@
 package pl1.canvas;
+
 /*******************************************************************************
  * Jan Kožusznik
  * Copyright (c) 2016 All Right Reserved, http://www.kozusznik.cz
@@ -8,11 +9,14 @@ package pl1.canvas;
  ******************************************************************************/
 
 import java.awt.Shape;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
@@ -23,6 +27,7 @@ import javafx.stage.Stage;
 import pl1.shapes.Pacman;
 import pl1.types.Direction8;
 import pl1.types.MyColor;
+import pl1.types.Position;
 import pl1.utils.IO;
 
 /**
@@ -62,6 +67,14 @@ public class Canvas {
   @FXML
   private RadioButton modifyRB;
 
+  private ArrayList<Pacman> pacmens= new ArrayList<>();
+
+  private boolean firstClick= false;
+  private boolean secondClick= false;
+  private Position leftCorner;
+  private Position rightCorner;
+  Pacman picked;
+
   public static class JavaFXApplication extends Application {
 
     @Override
@@ -85,7 +98,6 @@ public class Canvas {
         }
       }
     }
-
   }
 
   /**
@@ -113,33 +125,22 @@ public class Canvas {
     return cm;
   }
 
-  /**
-   * @param color
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#setColorOfForeground(cz.kozusznik.pl1.shapes.MyColor)
-   */
+
   public void setColorOfForeground(MyColor color) {
     canvasPanel.setColorOfForeground(color);
   }
 
-  /**
-   * @return
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#getColorOfBackground()
-   */
+
   public MyColor getColorOfBackground() {
     return canvasPanel.getColorOfBackground();
   }
 
-  /**
-   * @param color
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#setColorOfBackground(cz.kozusznik.pl1.shapes.MyColor)
-   */
+
   public void setColorOfBackground(MyColor color) {
     canvasPanel.setColorOfBackground(color);
   }
 
-  /**
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#erase()
-   */
+
   public void erase() {
     canvasPanel.erase();
   }
@@ -149,38 +150,118 @@ public class Canvas {
 
   }
 
-  /**
-   * @param shape
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#fill(java.awt.Shape)
-   */
+
   public void fill(Shape shape) {
     canvasPanel.fill(shape);
   }
 
-  /**
-   * @return
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#getWidth()
-   */
+
   public double getWidth() {
     return canvasPanel.getWidth();
   }
 
-  /**
-   * @return
-   * @see cz.kozusznik.pl1.shapes.CanvasPanel#getHeight()
-   */
+
   public double getHeight() {
     return canvasPanel.getHeight();
   }
 
   public void handleClicked(MouseEvent event) {
-    double x = event.getX();
+    double x1=event.getX();
+    double y1=event.getY();
+    if (createRB.isSelected() && !this.firstClick){
+      this.leftCorner= new Position((int)x1, (int)y1);
+      this.firstClick=true;
+    }
+    else if (createRB.isSelected() && this.firstClick) {
+      this.rightCorner= new Position((int)x1, (int)y1);
+      int height = 0;
+      int width = 0;
+      height = this.rightCorner.getX() - leftCorner.getX();
+      width = this.rightCorner.getY() - leftCorner.getY();
+
+      if (width <= 0 || height <= 0) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("O kurwa!!! Se posralo");
+        alert.setHeaderText("Error size");
+        alert.setContentText("U noob");
+        alert.showAndWait();
+      } else {
+        Pacman pacman = new Pacman(leftCorner.getX(), leftCorner.getY(), Direction8.EAST, height, width);
+        pacmens.add(pacman);
+      }
+      firstClick = false;
+    }
+    else if(modifyRB.isSelected() && !firstClick) {
+      Iterator<Pacman>i = pacmens.iterator();
+
+      while (i.hasNext()&&!firstClick){
+        Pacman pacman=i.next();
+        if ((x1>=pacman.getxPos()&& x1<=pacman.getxPos()+pacman.getHeight())&& (y1>=pacman.getyPos()&& y1<=pacman.getyPos()+getHeight()) ){
+          picked=pacman;
+          firstClick=true;
+          break;
+        }
+      }
+        //todo
+    }
+    else if (modifyRB.isSelected() && firstClick){
+      Iterator<Pacman>i = pacmens.iterator();
+
+      x1=event.getX();
+      y1=event.getY();
+      //picked.setPosition((int)x1, (int)y1);
+      picked.setHeight((int)x1-picked.getxPos());
+      picked.setWidth((int)y1-picked.getyPos());
+      picked.erase();
+      Pacman pacman = new Pacman(leftCorner.getX(), leftCorner.getY(), Direction8.EAST,picked.getHeight(), picked.getWidth());
+
+
+      firstClick=false;
+    }
+    else if (moveRB.isSelected() && !firstClick ) {
+      Iterator<Pacman>i = pacmens.iterator();
+
+      while (i.hasNext()&&!firstClick){
+        Pacman pacman=i.next();
+        if ((x1>=pacman.getxPos()&& x1<=pacman.getxPos()+pacman.getHeight())&& (y1>=pacman.getyPos()&& y1<=pacman.getyPos()+getHeight()) ){
+          picked=pacman;
+          firstClick=true;
+          break;
+        }
+      }
+    }
+    else if (moveRB.isSelected() && firstClick){
+      x1=event.getX();
+      y1=event.getY();
+      picked.setPosition((int)x1, (int)y1);
+      firstClick=false;
+    }
+    else if (deleteRB.isSelected()){
+      Iterator<Pacman>i = pacmens.iterator();
+
+      while (i.hasNext()){
+        Pacman pacman=i.next();
+        if ((x1>=pacman.getxPos()&& x1<=pacman.getxPos()+pacman.getWidth())&& (y1>=pacman.getyPos()&& y1<=pacman.getyPos()+pacman.getHeight()) ){
+          pacman.erase();
+          i.remove();
+          break;
+        }
+      }
+    }
+
+
+
+    /*double x = event.getX();
     double y = event.getY();
     selectedX.setText("" + x);
     selectedY.setText("" + y);
     if (createRB.isSelected()) {
       new Pacman((int) x, (int) y, Direction8.EAST);
-    }
+    }*/
+
+
+
+
   }
 
   public void handleMoved(MouseEvent event) {

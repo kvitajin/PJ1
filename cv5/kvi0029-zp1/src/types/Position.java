@@ -16,10 +16,10 @@ public class Position
 //== KONSTANTNÍ ATRIBUTY INSTANCÍ ==============================================
 
     /** Vodorovná souřadnice dané pozice. */
-    public  int x;
+    public final int x;
 
     /** Svislá souřadnice dané pozice. */
-    public  int y;
+    public final int y;
 
 
 
@@ -32,10 +32,11 @@ public class Position
 
     /***************************************************************************
      * Vytvoří instanci se zadanými souřadnicemi.
-     *  @param x  Vodorovná souřadnice.
+     *
+     * @param x  Vodorovná souřadnice.
      * @param y  Svislá souřadnice.
      */
-    public Position(int x, int y )
+    public Position( int x, int y )
     { 
         this.x  = x;
         this.y  = y;
@@ -45,14 +46,6 @@ public class Position
 
 //== ABSTRAKTNÍ METODY =========================================================
 //== PŘÍSTUPOVÉ METODY VLASTNOSTÍ INSTANCÍ =====================================
-
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
 
     /***************************************************************************
      * Vrátí hodnotu vodorovné souřadnice dané pozice.
