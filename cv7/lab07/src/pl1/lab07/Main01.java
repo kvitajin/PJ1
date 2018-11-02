@@ -9,6 +9,8 @@ package pl1.lab07;
 
 import pl1.shapes.manager.CanvasManager;
 
+import java.util.ArrayList;
+
 /**
  * @author Jan Kožusznik
  * @version 0.1
@@ -17,6 +19,13 @@ public class Main01 {
 
   public static void main(String[] args) {
     CanvasManager.getInstance();
+    ArrayList<IValuable> items= new ArrayList<>();
+    items.add(new Rectangle());
+    items.add(new Ellipse());
+    items.add(new Triangle());
+    AverageComputer computer =new AverageComputer();
+    double average =computer.getAverageOfItems(items);
+    System.out.println(average);
 
   }
 

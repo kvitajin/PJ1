@@ -1,5 +1,8 @@
 package pl1.shapes.manager;
 
+import pl1.lab07.IClearable;
+import pl1.lab07.IClickable;
+import pl1.lab07.IValuable;
 import pl1.shapes.MyColor;
 
 /*******************************************************************************
@@ -10,7 +13,7 @@ import pl1.shapes.MyColor;
  * @author Rudolf PECINOVSKY
  * @version 3.00.002
  */
-public class Rectangle implements IPaintable {
+public class Rectangle implements IPaintable, IClickable, IClearable, IValuable {
 
 //== KONSTANTNI ATRIBUTY TRIDY =================================================
 
@@ -334,6 +337,20 @@ public class Rectangle implements IPaintable {
     moveDown(-step);
   }
 
+  @Override
+  public boolean isInBounds(double x, double y) {
+    return ((x >= this.xPos && x <= this.xPos + width) && (y >= this.yPos && y <= this.yPos + height));
+  }
+
+  @Override
+  public void clear() {
+
+  }
+
+  @Override
+  public double getValue() {
+    return (width*height);
+  }
 //== SOUKROME A POMOCNE METODY TRIDY ===========================================
 //== SOUKROME A POMOCNE METODY INSTANCI ========================================
 //== VNORENE A VNITRNI TRIDY ===================================================

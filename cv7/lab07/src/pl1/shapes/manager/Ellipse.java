@@ -1,5 +1,8 @@
 package pl1.shapes.manager;
 
+import pl1.lab07.IClearable;
+import pl1.lab07.IClickable;
+import pl1.lab07.IValuable;
 import pl1.shapes.Dimension;
 import pl1.shapes.MyColor;
 import pl1.shapes.Position;
@@ -12,7 +15,7 @@ import pl1.shapes.Position;
  * @author Rudolf PECINOVSKÝ
  * @version 3.00.002
  */
-public class Ellipse implements IPaintable {
+public class Ellipse implements IPaintable, IClickable, IClearable, IValuable {
 //== KONSTANTNÍ ATRIBUTY TŘÍDY =================================================
 
   /**
@@ -368,6 +371,22 @@ public class Ellipse implements IPaintable {
   public void moveUp() {
     moveDown(-step);
   }
+
+  @Override
+  public double getValue(){
+    return Math.PI*width*height;
+  }
+  @Override
+  public boolean isInBounds(double x, double y){
+    return ((x>=this.xPos && x<=this.xPos+width)&&(y>=this.yPos && y <=this.yPos+height));
+  }
+
+  @Override
+  public void clear() {
+    color=MyColor.CREAMY;
+    CM.repaint();
+  }
+
 
 //== SOUKROMÉ A POMOCNÉ METODY TŘÍDY ===========================================
 //== SOUKROMÉ A POMOCNÉ METODY INSTANCÍ ========================================

@@ -2,33 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92689547-8892-404f-9bad-c8ac6e05ded3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/AverageComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IClearable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IClickable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IValuable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv2/lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv2/lab02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv3/lab03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv3/lab03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv3/lab03/bin/pl1/lab03/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv3/lab03/bin/pl1/lab03/QuadraticEquation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv4/lab04/bin/pl1/lab04/Pacman.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/bin/pl1/lab04/Pacman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv4/lab04/src/pl1/lab04/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/src/pl1/lab04/Pacman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kvi0029-zp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/Canvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/CanvasPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/Resizing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/manipulation_panel.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/canvas/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Arc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Ellipse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/EllipseInRectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/shapes/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Area.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Dimension.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Direction8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/MyColor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/types/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/utils/IO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/utils/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/src/zt1/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kvi0029-zp1/kvi0029-zp1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../kvi0029-zp1/kvi0029-zp1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv6/pl1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv6/pl1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv6/pl1/shapes/EllipseInRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv6/pl1/shapes/EllipseInRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/lab07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/lab07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/Main01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/CanvasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/CanvasManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/ManipulationPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/ManipulationPanelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,12 +34,15 @@
     <session id="1405554643">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl1/canvas/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1497">
-              <caret line="204" column="14" lean-forward="true" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
+            <state relative-caret-position="532">
+              <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +129,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="x" value="260" />
+    <option name="y" value="53" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,6 +141,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -195,12 +194,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540299081377" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cv6/pl1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cv7/lab07" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -253,9 +251,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2724359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28846154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl1/canvas/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1497">
-          <caret line="204" column="14" lean-forward="true" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
+        <state relative-caret-position="532">
+          <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

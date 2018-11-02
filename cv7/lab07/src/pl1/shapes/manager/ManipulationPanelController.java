@@ -79,7 +79,14 @@ public class ManipulationPanelController {
       } else if (moveRB.isSelected()) {
         moveShape(e.getX(), e.getY());
       }
+      else  if (deleteRB.isSelected()){
+        deleteShape(e.getX(), e.getY());
+      }
     }
+  }
+
+  private void deleteShape(double x, double y) {
+    CanvasManager.getInstance().delete(x, y);
   }
 
   public void mouseMoved(MouseEvent e) {
@@ -124,6 +131,15 @@ public class ManipulationPanelController {
         CanvasManager.getInstance()
             .add(new Rectangle((int) x, (int) y, 50, 50));
         break;
+      case ELLIPSE:
+        CanvasManager.getInstance()
+                .add(new Ellipse((int) x, (int) y, 50, 50));
+        break;
+        case TRIANGLE:
+        CanvasManager.getInstance()
+                .add(new Triangle((int) x, (int) y, 50, 50));
+        break;
+
     }
   }
 

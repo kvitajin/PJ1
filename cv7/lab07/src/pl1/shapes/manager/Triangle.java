@@ -1,5 +1,8 @@
 package pl1.shapes.manager;
 
+import pl1.lab07.IClearable;
+import pl1.lab07.IClickable;
+import pl1.lab07.IValuable;
 import pl1.shapes.Direction8;
 import pl1.shapes.MyColor;
 
@@ -11,7 +14,7 @@ import pl1.shapes.MyColor;
  * @author Rudolf PECINOVSKY
  * @version 3.00.002
  */
-public class Triangle {
+public class Triangle implements IPaintable, IClickable, IClearable, IValuable {
 //== KONSTANTNI ATRIBUTY TRIDY =================================================
 
   /**
@@ -31,7 +34,7 @@ public class Triangle {
   public static final int MAX_STEP = 100;
 
   /** Platno, na ktere se bude instance kreslit. */
-  //private static final Canvas CANVAS = Canvas.getInstance();
+  private static final CanvasManager CM = CanvasManager.getInstance();
 
 //== PROMENNE ATRIBUTY TRIDY ===================================================
 
@@ -475,6 +478,25 @@ public class Triangle {
     return new double[][]{xpoints, ypoints};
   }
 
+    @Override
+    public double getValue(){
+      return (width*height);
+    }
+    @Override
+  public void paint (MyGraphics graphics){
+    double[][] verticies=this.getVerticies();
+    graphics.fillPolygon(verticies[0], verticies[1], color);
+
+  }
+  @Override
+  public boolean isInBounds(double x, double y) {
+    return ((x >= this.xPos && x <= this.xPos + width) && (y >= this.yPos && y <= this.yPos + height));
+  }
+
+  @Override
+  public void clear() {
+
+  }
 //== VNORENE A VNITRNI TRIDY ===================================================
 //== TESTY A METODA MAIN =======================================================
 }

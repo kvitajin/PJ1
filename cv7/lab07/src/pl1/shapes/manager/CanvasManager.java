@@ -7,6 +7,7 @@
  ******************************************************************************/
 package pl1.shapes.manager;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -17,10 +18,13 @@ import javafx.scene.canvas.Canvas;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import pl1.lab07.IClickable;
 import pl1.shapes.MyColor;
 import pl1.utils.IO;
 import pl1.utils.JavaFXApplication;
 import pl1.utils.Resizing;
+
+import javax.swing.*;
 
 /**
  * @author Jan Kožusznik
@@ -147,6 +151,23 @@ public class CanvasManager {
       graphics = new MyGraphics(canvas.getGraphicsContext2D());
     }
     return graphics;
+  }
+
+  public void delete(double x, double y) {
+    Iterator<IPaintable> iterator=this.subjects.iterator();
+    while (iterator.hasNext()){
+      IPaintable item = iterator.next();
+      if (item instanceof IClickable){
+        if (((IClickable) item).isInBounds(x,y)){
+          ((IClickable) item).clear();
+          iterator.remove();
+          break;
+
+        }
+      }
+    }
+
+
   }
 
   private class P_CanvasPanel extends Pane {
