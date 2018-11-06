@@ -9,6 +9,7 @@ package cz.kozusznik.pl1.shapes.manager;
 
 import java.util.ArrayList;
 
+import cz.kozusznik.pl1.shapes.tools.IMovable;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -17,6 +18,8 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import cz.kozusznik.pl1.shapes.tools.*;
+
 
 /**
  * @author Jan Kožusznik
@@ -31,6 +34,10 @@ public class ManipulationPanelController {
   private static final String ELLIPSE = "Elipsa";
 
   private ArrayList<IPaintable> createdObjects = new ArrayList<>();
+
+  private IPaintable selectedObject =null;
+
+
   @FXML
   private ComboBox<String> toCreate;
 
@@ -107,11 +114,24 @@ public class ManipulationPanelController {
     //   vybrat
     //jinak:
     // posunout daný tvar na specifickout pozici - zavolat metodu moveTo
-    moveTo(null, x, y);
+    if (selectedObject==null) {
+      for(IPaintable object: createdObjects){
+        if (object instanceof IClickable &&((IClickable) object).isInBound(x,y)){
+          selectedObject=object;
+        }
+      }
+    }
+    else {
+      moveTo(selectedObject, x, y);
+      selectedObject=null;
+    }
+
   }
 
   private void doMoving(Object obj, double x, double y) {
     //TODO zde bude kod pro volání objektu, který zajistí animaci
+    Mover mover =new Mover (500);
+    mover.moveOn((IMovable) obj, (int)x, (int) y);
   };
 
   private void moveTo(Object obj, double x, double y) {

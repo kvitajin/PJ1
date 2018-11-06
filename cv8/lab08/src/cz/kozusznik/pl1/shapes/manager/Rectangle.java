@@ -1,6 +1,7 @@
 package cz.kozusznik.pl1.shapes.manager;
 
 import cz.kozusznik.pl1.shapes.MyColor;
+import cz.kozusznik.pl1.shapes.Position;
 
 /*******************************************************************************
  * Instance tridy {@code Obdelnik} predstavuji obdelniky urcene
@@ -10,7 +11,7 @@ import cz.kozusznik.pl1.shapes.MyColor;
  * @author Rudolf PECINOVSKY
  * @version 3.00.002
  */
-public class Rectangle implements IPaintable, IClickable {
+public class Rectangle extends AbstractShape implements IClickable {
 
 //== KONSTANTNI ATRIBUTY TRIDY =================================================
 
@@ -156,6 +157,12 @@ public class Rectangle implements IPaintable, IClickable {
   }
 
 //== PRISTUPOVE METODY ATRIBUTU INSTANCI =======================================
+
+  @Override
+  public Position getPosition() {
+    Position tmp= new Position(getX(), getY());
+    return tmp;
+  }
 
   /***************************************************************************
    * Vrati x-ovou souradnici pozice instance.

@@ -32,4 +32,17 @@ public final class MyDate {
     this.day = day;
   }
 
+  @Override
+  public String toString() {
+    return super.toString();
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (obj instanceof MyDate){
+      MyDate other=(MyDate) obj;
+      return this.day==other.day &&this.month==other.month && this.year==other.year;
+    }
+    return false;
+  }
 }

@@ -368,6 +368,16 @@ public class Ellipse implements IPaintable {
   public void moveUp() {
     moveDown(-step);
   }
+/*
+  @Override
+  public Position getSize() {
+    Position tmp= new Position(getX(), getY());
+  }
+
+  @Override
+  public void resize(int x, int y) {
+
+  }*/
 
 //== SOUKROMÉ A POMOCNÉ METODY TŘÍDY ===========================================
 //== SOUKROMÉ A POMOCNÉ METODY INSTANCÍ ========================================
