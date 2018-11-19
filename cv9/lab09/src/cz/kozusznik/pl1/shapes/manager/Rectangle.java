@@ -340,6 +340,12 @@ public class Rectangle implements IPaintable, IClickable {
     return (xPos <= x) && (x <= (xPos + width)) && (yPos <= y)
         && (y <= (yPos + height));
   }
+  @Override
+  public int compareTo(Object o){
+    if (this.getArea()== ((Rectangle) o).getArea()) return 0;
+    else if (this.getArea()<((Rectangle) o).getArea())return -1;
+    else return 1;
+  }
 
 //== SOUKROME A POMOCNE METODY TRIDY ===========================================
 //== SOUKROME A POMOCNE METODY INSTANCI ========================================

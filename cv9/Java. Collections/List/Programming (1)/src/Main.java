@@ -7,6 +7,10 @@ public class Main {
 
     List<String> nameList = new ArrayList<>(Arrays.asList("Mr.Green", "Mr.Yellow", "Mr.Red"));
 
+    for (String aNameList : nameList) {
+      System.out.println(aNameList);
+    }
+
     //write your code here
 
 

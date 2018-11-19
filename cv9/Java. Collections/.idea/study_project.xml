@@ -105,11 +105,11 @@
                       <option name="choiceVariants">
                         <list>
                           <option value="Queue" />
-                          <option value="Set" />
                           <option value="AbstractCollection" />
+                          <option value="Set" />
                           <option value="Collection" />
-                          <option value="List" />
                           <option value="Map" />
+                          <option value="List" />
                         </list>
                       </option>
                       <option name="customPresentableName" />
@@ -125,9 +125,12 @@
                       <option name="multipleChoice" value="true" />
                       <option name="name" value="Quiz" />
                       <option name="selectedVariants">
-                        <list />
+                        <list>
+                          <option value="4" />
+                          <option value="3" />
+                        </list>
                       </option>
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="294428" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -170,7 +173,7 @@
                       </option>
                       <option name="index" value="3" />
                       <option name="name" value="Theory (1)" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="294424" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -213,9 +216,9 @@
                       </option>
                       <option name="index" value="4" />
                       <option name="name" value="Programming" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="294429" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Main.java">
@@ -224,7 +227,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;  public static void main(String[] args) {&#10;&#10;&#10;    //write your code here&#10;&#10;&#10;    System.out.println(list);&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -256,9 +259,9 @@
                       </option>
                       <option name="index" value="5" />
                       <option name="name" value="Programming (1)" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="294431" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Main.java">
@@ -267,7 +270,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;  public static void main(String[] args) {&#10;&#10;&#10;    List&lt;String&gt; nameList = new ArrayList&lt;&gt;(Arrays.asList(&quot;Mr.Green&quot;, &quot;Mr.Yellow&quot;, &quot;Mr.Red&quot;));&#10;&#10;    //write your code here&#10;&#10;&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -299,9 +302,9 @@
                       </option>
                       <option name="index" value="6" />
                       <option name="name" value="Programming (2)" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="294426" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Main.java">
@@ -310,7 +313,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;  public static void main(String[] args) {&#10;&#10;    List&lt;String&gt; nameList = new ArrayList&lt;&gt;(Arrays.asList(&quot;Mr.Green&quot;, &quot;Mr.Yellow&quot;, &quot;Mr.Red&quot;));&#10;&#10;&#10;    //write your code here&#10;&#10;&#10;    for (int i = 0; i &lt; strArray.length; i++) {&#10;      System.out.println(strArray[i]);&#10;    }&#10;&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -342,9 +345,9 @@
                       </option>
                       <option name="index" value="7" />
                       <option name="name" value="Programming (3)" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="294430" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Main.java">
@@ -353,7 +356,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;  public static void main(String[] args) {&#10;&#10;    List&lt;GreekLetter&gt; letterList = new ArrayList&lt;&gt;();&#10;    letterList.add(new GreekLetter(&quot;Gamma&quot;,  3));&#10;    letterList.add(new GreekLetter(&quot;Omega&quot;, 24));&#10;    letterList.add(new GreekLetter(&quot;Alpha&quot;,  1));&#10;&#10;&#10;    //write your code here&#10;&#10;&#10;    for (int i = 0; i &lt; objArray.length; i++) {&#10;      System.out.println(objArray[i]);&#10;    }&#10;  }&#10;&#10;  static class GreekLetter {&#10;&#10;    private String letter;&#10;    private Integer position;&#10;&#10;    public GreekLetter(String letter, Integer position) {&#10;      this.letter = letter;&#10;      this.position = position;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;      return &quot;{&quot; +&#10;              &quot;letter='&quot; + letter + '\'' +&#10;              &quot;, position=&quot; + position +&#10;              '}';&#10;    }&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -387,7 +390,7 @@
                       <option name="name" value="Programming (4)" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="294432" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/Main.java">
@@ -396,7 +399,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
