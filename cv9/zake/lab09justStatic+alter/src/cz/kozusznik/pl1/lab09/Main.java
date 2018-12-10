@@ -18,9 +18,6 @@ public class Main{
 
         System.out.println(OccurencesComparator.sort(hey, hoy));
 
-
-
-
     }
 
     public static Set<String> LowerNoDupli(Collection <String> sup){

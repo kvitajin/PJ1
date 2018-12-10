@@ -392,4 +392,6 @@ public class Ellipse implements IPaintable, IClickable, IClearable, IValuable {
 //== SOUKROMÉ A POMOCNÉ METODY INSTANCÍ ========================================
 //== VNOŘENÉ A VNITŘNÍ TŘÍDY ===================================================
 //== TESTY A METODA MAIN =======================================================
+
+
 }

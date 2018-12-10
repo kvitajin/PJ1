@@ -1,4 +1,4 @@
-package pl1.shapes;
+package pl1.shapes.manager;
 /*******************************************************************************
  * Kozusznik Jan
  * Copyright (c) 2014 All Right Reserved, http://www.kozusznik.cz
@@ -7,14 +7,18 @@ package pl1.shapes;
  * file 'LICENSE.txt', which is part of this source code package.
  ******************************************************************************/
 
-import pl1.types.Direction8;
-import pl1.types.MyColor;
+import pl1.lab07.IClearable;
+import pl1.lab07.IClickable;
+import pl1.lab07.IValuable;
+import pl1.shapes.Direction8;
+import pl1.shapes.MyColor;
+
 
 /**
  * @author Jan Kožusznik
  * @version 0.1
  */
-public class Pacman {
+public class Pacman implements IPaintable, IClickable, IClearable, IValuable {
 
   private static  int SIZE = 30;
 
@@ -31,6 +35,8 @@ public class Pacman {
   private Direction8 direction;
   private Arc head;
   private Ellipse eye;
+
+  private static final CanvasManager CM = CanvasManager.getInstance();
 
   public Pacman(int x, int y, Direction8 direction) {
     xPos = x;
@@ -162,5 +168,25 @@ public class Pacman {
         return 0;
     }
 
+  }
+
+  @Override
+  public boolean isInBounds(double x, double y) {
+    return false;
+  }
+
+  @Override
+  public void clear() {
+
+  }
+
+  @Override
+  public double getValue() {
+    return (Math.PI*width*height- (Math.PI*width*height*ANGLE)/360);
+  }
+
+  @Override
+  public void paint(MyGraphics graphics) {
+    CM.repaint();
   }
 }

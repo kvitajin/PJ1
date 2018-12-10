@@ -1,4 +1,4 @@
-package cz.kozusznik.pl1;
+package cz.kozusznik.pl1.lab09;
 
 import cz.kozusznik.pl1.shapes.tools.IMovable;
 

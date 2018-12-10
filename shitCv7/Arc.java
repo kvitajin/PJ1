@@ -1,12 +1,13 @@
-package pl1.shapes;
+package pl1.shapes.manager;
 
 import java.awt.geom.Arc2D;
 import java.util.HashMap;
 import java.util.Map;
 
-import pl1.canvas.Canvas;
-import pl1.types.Direction8;
-import pl1.types.MyColor;
+import pl1.shapes.manager.CanvasManager;
+import pl1.shapes.Direction8;
+import pl1.shapes.MyColor;
+import pl1.shapes.MyColor;
 
 /**
  * @author Jan Kožusznik
@@ -14,7 +15,7 @@ import pl1.types.MyColor;
  */
 public class Arc {
 
-  private static final Canvas CANVAS = Canvas.getInstance();
+  private static final CanvasManager CANVAS = CanvasManager.getInstance();
 
   private MyColor color = MyColor.AZURE;
 
@@ -33,6 +34,8 @@ public class Arc {
   private String name;
 
   private final int step = 50;
+
+  private static final CanvasManager CM = CanvasManager.getInstance();
 
   private static Map<Direction8, Double> directionMap =
       new HashMap<Direction8, Double>();
@@ -81,7 +84,7 @@ public class Arc {
   }
 
   public void erase() {
-    CANVAS.erase(new java.awt.geom.Arc2D.Double(xPos, yPos, width, height,
+    CanvasManager.erase(new Arc2D.Double(xPos, yPos, width, height,
         (getInitialAngle() - (angle / 2)), angle, Arc2D.PIE));
   }
 
@@ -296,8 +299,8 @@ public class Arc {
 
   private void repaint(MyColor color2) {
     double initialAngle = getInitialAngle();
-    CANVAS.setColorOfForeground(color2);
-    CANVAS.fill(new java.awt.geom.Arc2D.Double(xPos, yPos, width, height,
+    CanvasManager.setColorOfForeground(color2);
+    CanvasManager.fill(new Arc2D.Double(xPos, yPos, width, height,
         initialAngle - (angle / 2), angle, Arc2D.PIE));
 
   }

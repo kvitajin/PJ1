@@ -2,9 +2,12 @@ package pl1.shapes.manager;
 
 import pl1.lab07.IClearable;
 import pl1.lab07.IClickable;
+import pl1.lab07.IMoveable;
 import pl1.lab07.IValuable;
 import pl1.shapes.Direction8;
 import pl1.shapes.MyColor;
+
+import static java.lang.Math.abs;
 
 /*******************************************************************************
  * Instance tridy {@code Trojuhelnik} predstavuji trojuhelniky urcene
@@ -14,7 +17,7 @@ import pl1.shapes.MyColor;
  * @author Rudolf PECINOVSKY
  * @version 3.00.002
  */
-public class Triangle implements IPaintable, IClickable, IClearable, IValuable {
+public class Triangle implements IPaintable, IClickable, IClearable, IValuable, IMoveable {
 //== KONSTANTNI ATRIBUTY TRIDY =================================================
 
   /**
@@ -484,7 +487,7 @@ public class Triangle implements IPaintable, IClickable, IClearable, IValuable {
     }
     @Override
   public void paint (MyGraphics graphics){
-    double[][] verticies=this.getVerticies();
+    double[][] verticies=this.getVertices();
     graphics.fillPolygon(verticies[0], verticies[1], color);
 
   }
@@ -495,8 +498,130 @@ public class Triangle implements IPaintable, IClickable, IClearable, IValuable {
 
   @Override
   public void clear() {
-
+    color=MyColor.CREAMY;
+    CM.repaint();
+        //todo
   }
 //== VNORENE A VNITRNI TRIDY ===================================================
 //== TESTY A METODA MAIN =======================================================
+
+  private void plotLineLow(int x0,int y0, int x1,int y1, int delay)throws InterruptedException {
+    int dx = x1 - x0;
+    int dy = y1 - y0;
+    int yi = 1;
+    if (dy< 0) {
+      yi = -1;
+      dy = -dy;
+    }
+    int D = 2 * dy - dx;
+    int y = y0;
+    for (int x = x0; x < x1; x++) {
+      setPosition(x, y);
+      if (D > 0) {
+        y = y + yi;
+        D = D - 2 * dx;
+      }
+      D = D + 2 * dy;
+      Thread.sleep(delay);
+      //System.out.println("line low");
+    }
+  }
+  private void plotLineLowUp(int x0,int y0, int x1,int y1, int delay)throws InterruptedException {
+    int dx = x1 - x0;
+    int dy = y1 - y0;
+    int yi = 1;
+    if (dy< 0) {
+      yi = -1;
+      dy = -dy;
+    }
+    int D = 2 * dy - dx;
+    int y = y0;
+    //System.out.println("X0: "+x0+" y: "+y0+ "\nX1: "+x1+" y1: "+y+ " \ndx: "+dx+" dy: "+dy  );
+    for (int x = x0; x >x1; x--) {
+      setPosition(x, y);
+      if (D > 0) {
+        y = y + yi;
+        D = D - 2 * dx;
+      }
+      D = D + 2 * dy;
+      Thread.sleep(100);//delay);
+      //System.out.println("line LUP");
+    }
+  }
+  private void plotLineHigh(int x0,int y0,int x1,int y1, int delay) throws InterruptedException {
+    int dx = x1 - x0;
+    int dy = y1 - y0;
+    int xi = 1;
+    if (dx< 0) {
+      xi = -1;
+      dx = -dx;
+    }
+    int D = 2 * dx - dy;
+    int x = x0;
+    for (int y = y0; y < y1; y++) {
+      setPosition(x, y);
+      if (D > 0) {
+        x = x + xi;
+        D = D - 2 * dy;
+      }
+      D = D + 2 * dx;
+      Thread.sleep(delay);        //todo tohle pujde modulovat a tim udelat krok
+      //System.out.println("line high");
+
+    }
+  }
+  private void plotLineHighUp(int x0,int y0,int x1,int y1, int delay) throws InterruptedException {
+    int dx = x1 - x0;
+    int dy = y1 - y0;
+    int xi = 1;
+    if (dx< 0) {
+      xi = -1;
+      dx = -dx;
+    }
+    int D = 2 * dx - dy;
+    int x = x0;
+    for (int y = y0; y >y1; y--) {
+      setPosition(x, y);
+      if (D > 0) {
+        x = x + xi;
+        D = D - 2 * dy;
+      }
+      D = D + 2 * dx;
+      Thread.sleep(delay);        //todo tohle pujde modulovat a tim udelat krok
+      //System.out.println("line HUP");
+    }
+  }
+
+  private void plotLine(int x0,int y0,int x1,int y1, int delay) throws InterruptedException{
+    if (abs(y1 - y0) < abs(x1 - x0)) {
+      if (x0 > x1) {
+        plotLineLowUp(x0, y0, x1, y1,  delay);
+        System.out.println("1");
+
+      } else {
+        plotLineLow(x0, y0, x1, y1, delay);
+        System.out.println("2");
+
+      }
+    }
+    else{
+      if (y0 > y1) {
+        plotLineHighUp(x0, y0, x1, y1, delay);
+        System.out.println("3");
+
+      } else {
+        plotLineHigh(x0, y0, x1, y1, delay);
+        System.out.println("4");
+
+      }
+    }
+  }
+
+  @Override
+  public void move(int x, int y) throws InterruptedException {
+    int x0=getX();
+    int y0=getY();
+    System.out.println("jsem zde");
+      plotLine(x0, y0, x, y, 50);
+  }
 }

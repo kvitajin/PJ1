@@ -2,12 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541a4eeb-1d5b-4811-8205-3223be7656eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SI/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Commons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Shot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/SpaceInvaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI2/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Pic.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/shit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/files/Faust-Goethe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/Faust-Goethe.txt.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/doubles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab11.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/lab12-networking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/src/$012_networking/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/src/$012_networking/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cvicny_test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cvicny_test/src/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cvicny_test/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cvicny_test/src/NakladniAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cvicny_test/src/OsobniAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cvicny_test/src/PrepravaOsob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../semSI/src/sample/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/src/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/src/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java. Collections/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java. Collections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java. Collections/List/Programming (4)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/List/Programming (4)/src/Main.java" afterDir="false" />
@@ -24,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/../../cv10/lab10/lab10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/lab10.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv2/lab02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv2/lab02/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv2/lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv2/lab02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" afterDir="false" />
@@ -101,52 +135,69 @@
     <session id="-1441435689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.146" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="1656" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="1656" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="541">
+              <caret line="201" column="17" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/Faust-Goethe.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/doubles.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170000">
+              <caret line="10000" selection-start-line="10000" selection-end-line="10000" />
             </state>
           </provider>
         </entry>
@@ -166,10 +217,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/files/Faust-Goethe.txt" />
+        <option value="$PROJECT_DIR$/files/doubles.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
@@ -191,6 +249,11 @@
             <path>
               <item name="lab11" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab11" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -198,13 +261,19 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Course" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543338431347" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543862942500" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cv12/lab12-networking" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
@@ -219,6 +288,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -229,58 +312,156 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543337635268</updated>
+      <workItem from="1543401072041" duration="284000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="284000" />
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26307365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32896176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Faust-Goethe-1250.txt" />
+    <entry file="file://$PROJECT_DIR$/files/Faust-Goethe-1250.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="541">
+          <caret line="201" column="17" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/Faust-Goethe.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/files/doubles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170000">
+          <caret line="10000" selection-start-line="10000" selection-end-line="10000" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lab11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

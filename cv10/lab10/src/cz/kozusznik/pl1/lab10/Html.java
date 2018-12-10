@@ -8,6 +8,9 @@ package cz.kozusznik.pl1.lab10;
  ******************************************************************************/
 
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * @author Jan Kožusznik
  * @version 0.1
@@ -27,6 +30,83 @@ public class Html {
   public String toString() {
     return data;
   }
+
+  private int lenght(){
+    return toString().length();
+  }
+
+  public int numA(){
+    int cnt=0;
+    for (int i = 0; i < lenght(); i++) {
+      if (data.charAt(i)=='a') ++cnt;
+    }
+    return cnt;
+  }
+  public int numMalychSamohlasek(){
+    int cnt=0;
+    for (int i = 0; i < lenght(); i++) {
+      if (data.charAt(i)=='a'||
+          data.charAt(i)=='e'||
+          data.charAt(i)=='i'||
+          data.charAt(i)=='o'||
+          data.charAt(i)=='u'||
+          data.charAt(i)=='y') ++cnt;
+    }
+    return cnt;
+  }
+
+
+  public int numVelkychSamohlasek(){
+    int cnt=0;
+    for (int i = 0; i < lenght(); i++) {
+      if (data.charAt(i)=='A'||
+          data.charAt(i)=='E'||
+          data.charAt(i)=='I'||
+          data.charAt(i)=='O'||
+          data.charAt(i)=='U'||
+          data.charAt(i)=='Y') ++cnt;
+    }
+    return cnt;
+  }
+  public int numSamohlasek(){
+    int cnt=0;
+    for (int i = 0; i < lenght(); i++) {
+      char tmp=data.charAt(i);
+      tmp=Character.toLowerCase(tmp);
+      if (tmp=='a'||
+          tmp=='e'||
+          tmp=='i'||
+          tmp=='o'||
+          tmp=='u'||
+          tmp=='y') ++cnt;
+    }
+    return cnt;
+  }
+  public int numOfStarecMore() {
+    int cnt = 0;
+    int index = 0;
+    String down = data.toLowerCase();
+    //todo tohle je shit, ale tak nejak
+    while (index != -1) {
+      index = down.indexOf("starec", index + "starec".length());
+      if (index == -1) {
+        ++cnt;
+      }
+    }
+    return cnt;
+  }
+
+  public int numOfWord(){
+    String[] words = data.split("[\" ,.?!]+");
+    //System.out.println("Total word count: " + words.length);
+    /*
+    String regex="href=\"http[s]?:\\/\\/\\s+[\"]";
+    Pattern pattern=Pattern.compile(regex);
+    Matcher matcher=pattern.matcher(data);
+    int cnt=0;*/
+    return words.length;
+  }
+
 
   private String getText() {
     StringBuilder sb = new StringBuilder();

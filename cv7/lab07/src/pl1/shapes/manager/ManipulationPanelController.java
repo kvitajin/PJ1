@@ -15,6 +15,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import pl1.shapes.Direction8;
 
 /**
  * @author Jan Kožusznik
@@ -27,6 +28,8 @@ public class ManipulationPanelController {
   private static final String TRIANGLE = "Trojúhelník";
 
   private static final String ELLIPSE = "Elipsa";
+
+  private static final String PACMAN = "Pacman";
 
   @FXML
   private ComboBox<String> toCreate;
@@ -96,11 +99,14 @@ public class ManipulationPanelController {
 
   private void moveShape(double x, double y) {
     //TODO
+      Object tmp=toCreate.getValue();
+      moveTo(tmp, x, y);
     //pokud není vybrán žádný tvar:
     //   vybrat
     //jinak:
     // posunout daný tvar na specifickout pozici - zavolat metodu moveTo
     //moveTo(vybrany tvar, x, y);
+
   }
 
   private void doMoving(Object obj, double x, double y) {
@@ -135,10 +141,14 @@ public class ManipulationPanelController {
         CanvasManager.getInstance()
                 .add(new Ellipse((int) x, (int) y, 50, 50));
         break;
-        case TRIANGLE:
+      case TRIANGLE:
         CanvasManager.getInstance()
                 .add(new Triangle((int) x, (int) y, 50, 50));
         break;
+      /*case PACMAN:
+        CanvasManager.getInstance()
+                .add(new Pacman((int)x, (int)y, Direction8.WEST, 50, 50));
+*/
 
     }
   }

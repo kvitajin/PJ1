@@ -10,7 +10,7 @@ import cz.kozusznik.pl1.shapes.MyColor;
  * @author Rudolf PECINOVSKY
  * @version 3.00.002
  */
-public class Rectangle implements IPaintable, IClickable {
+public class Rectangle implements IPaintable,IClickable, Comparable {
 
 //== KONSTANTNI ATRIBUTY TRIDY =================================================
 
@@ -313,7 +313,7 @@ public class Rectangle implements IPaintable, IClickable {
    * Presune instanci o zadany pocet bodu dolu,
    * pri zaporne hodnote parametru nahoru.
    *
-   * @param vzdalenost
+   * @param distance
    *          Pocet bodu, o ktere se instance presune.
    */
   public void moveDown(int distance) {
@@ -340,11 +340,12 @@ public class Rectangle implements IPaintable, IClickable {
     return (xPos <= x) && (x <= (xPos + width)) && (yPos <= y)
         && (y <= (yPos + height));
   }
+  public int getArea(){
+    return width*height;
+  }
   @Override
   public int compareTo(Object o){
-    if (this.getArea()== ((Rectangle) o).getArea()) return 0;
-    else if (this.getArea()<((Rectangle) o).getArea())return -1;
-    else return 1;
+    return Integer.compare(this.getArea(), ((Rectangle) o).getArea());
   }
 
 //== SOUKROME A POMOCNE METODY TRIDY ===========================================

@@ -533,8 +533,8 @@ public class Book {
         .append(
             "Dobře to rozžvýkej, abys vyssál všechny šťávy! Nebylo by to špatné s kouskem zeleného nebo žlutého citronu nebo se solí.\n")
         .append(
-            "\"Jak se cítíš, ruko?\" zeptal se křečovitě sevřené ruky, ztuhlé skoro tak jako v posmrtném ztrnutí. \"Sním kvůli tobě ještě kousek.\"\n")
-        .append(
+            "\"Jak se cítíš, ruko?\" zeptal se křečovitě sevřené ruky, ztuhlé skoro tak jako v posmrtném ztrnutí. \"Sním kvůli tobě ještě kousek.\"\n");
+       /* .append(
             "Snědl druhou část pruhu, který překrojil vejpůl. Pečlivě maso rozžvýkal a pak vyplivl kůži.\n")
         .append(
             "\"Tak co to dělá, ruko? Nebo je na to ještě brzy?\" Vzal si další pruh v celku a žvýkal.\n")
@@ -1159,7 +1159,7 @@ public class Book {
             "\"Nevěděla jsem, že žraloci mají tak pěkné, tak krásně vykrojené ocasní ploutve.\"\n")
         .append("\"Já taky ne,\" přidal se její společník.\n").append(
             "O kus dál po silnici stařec ve své chatrči zase spal. Spal opět tváří dolů a chlapec seděl vedle a díval se na něho. Starému se zdálo o lvech.\n");
-
+*/
     return sb.toString();
   }
 

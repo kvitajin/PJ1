@@ -14,6 +14,7 @@ package cz.kozusznik.pl1.lab10;
  */
 public class Book {
   private final String data;
+  public String[] words;
 
   /**
    *
@@ -25,6 +26,17 @@ public class Book {
   @Override
   public String toString() {
     return data;
+  }
+
+  public int numOfWord(){
+    words = data.split("[\" ,.?!]+");
+    //System.out.println("Total word count: " + words.length);
+    /*
+    String regex="href=\"http[s]?:\\/\\/\\s+[\"]";
+    Pattern pattern=Pattern.compile(regex);
+    Matcher matcher=pattern.matcher(data);
+    int cnt=0;*/
+    return words.length;
   }
 
   private String getText() {

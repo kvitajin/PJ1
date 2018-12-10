@@ -2,13 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165ddff0-e3a0-424b-b510-6bb015daa572" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/IResizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Commons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Shot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/SpaceInvaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI/src/com/zetcode/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SI2/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Pic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/shit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/files/Faust-Goethe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/files/Faust-Goethe.txt.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/files/doubles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/lab11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/lab12-networking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/src/$012_networking/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/src/$012_networking/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../semSI/src/sample/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/src/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spaceInvaders/src/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/List/Programming (4)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/List/Programming (4)/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/List/Programming (5)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/List/Programming (5)/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (1)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (1)/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (2)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (2)/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (3)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (3)/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Quiz/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Quiz/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java. Collections1/.idea/Java._Collections1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections1/.idea/Java._Collections1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VojtovoAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../VojtovoAuto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/lab10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/lab10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv2/lab02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv2/lab02/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv2/lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv2/lab02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/shapes/Arc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/shapes/Arc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv7/lab07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IClickable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IMoveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IMoveable.java" afterDir="false" />
@@ -19,10 +66,57 @@
       <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/ManipulationPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/ManipulationPanelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Pacman.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/MyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Ellipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/ImovableComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/ImovableComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Lab09Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Lab09Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/OccurencesComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/OccurencesComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Lab09Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Lab09Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/OccurencesComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/OccurencesComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/RadnomGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/RadnomGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Area.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Dimension.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Dimension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$Prepravka.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$Prepravka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/MyColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/MyColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_CanvasPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_CanvasPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_RepaintCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_RepaintCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Ellipse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IClickable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IClickable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IPaintable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IPaintable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/MyGraphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/MyGraphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/IMovable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/IMovable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/Mover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/Mover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$INormalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$INormalizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/JavaFXApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/JavaFXApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/Resizing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/Resizing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,70 +129,54 @@
     <session id="-2048238035">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="Learning" value="1" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="16" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1103" />
+          <entry key="java" value="1323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1103" />
+          <entry key="JAVA" value="1323" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/MyDate.java">
+        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Transformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#459#486#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/AbstractShape.java">
+        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/IClickable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="163" column="14" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -106,8 +184,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Ellipse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
+            <state relative-caret-position="5576">
               <caret line="370" column="2" selection-start-line="370" selection-start-column="2" selection-end-line="370" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="163" column="14" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,12 +202,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="102">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +238,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///usr/java/jdk-10.0.2/lib/src.zip!/java.desktop/java/awt/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="306">
               <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
             </state>
           </provider>
@@ -147,20 +247,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/IResizable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +259,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/tools/Mover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="2346">
               <caret line="145" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
@@ -206,12 +294,14 @@
         <option value="$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/MyDate.java" />
         <option value="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.java" />
+        <option value="$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Transformer.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,8 +309,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -281,13 +372,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="moveShape&#9;PSI&#9;JAVA://cz.kozusznik.pl1.shapes.manager.ManipulationPanelController#moveShape" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541528070170" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/kvitajin/IdeaProjects/vsb/pj1/cv8/lab08/src/cz/kozusznik/pl1/shapes/manager/AbstractShape.java&#10;moveShape&#9;PSI&#9;JAVA://cz.kozusznik.pl1.shapes.manager.ManipulationPanelController#moveShape" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541974612029" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cv9/lab09" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -342,18 +432,14 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32896176" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" weight="0.3335112" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
@@ -361,14 +447,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32896176" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32896176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -389,68 +479,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/jdk-10.0.2/lib/src.zip!/java.desktop/java/awt/Canvas.java">
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/tools/Mover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/IResizable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/AbstractShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2057">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/MyDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state>
           <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/AbstractShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#459#486#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Ellipse.java">
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Transformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="370" column="2" selection-start-line="370" selection-start-column="2" selection-end-line="370" selection-end-column="2" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/IClickable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/lab08/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="102">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -462,23 +536,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java">
+    <entry file="jar:///usr/java/jdk-10.0.2/lib/src.zip!/java.desktop/java/awt/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="163" column="14" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/IResizable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.java">
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/tools/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
+        <state relative-caret-position="2346">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Ellipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5576">
+          <caret line="370" column="2" selection-start-line="370" selection-start-column="2" selection-end-line="370" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="163" column="14" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
         </state>
       </provider>
     </entry>

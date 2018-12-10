@@ -31,7 +31,7 @@ public class Book {
   }
 
   public Collection<String> getWords() {
-    return Arrays.asList(toString().split("[\" ,.?!]+"));
+    return Arrays.asList(toString().split("[\" ,.?!\n]+"));
   }
 
   private String getText() {
@@ -842,8 +842,8 @@ public class Book {
         .append(
             "Zkusil to ještě jednou, a když rybu obracel, cítil, že omdlévá. Ryba vyrovnala a opět pomalu odplouvala a její velká ocasní ploutev sebou mrskala ve vzduchu.\n")
         .append(
-            "Zkusím to znovu, sliboval si stařec, třebaže mu připadalo, jako by měl ruce z rosolu, a viděl pořádně jen v záblescích.\n")
-        .append(
+            "Zkusím to znovu, sliboval si stařec, třebaže mu připadalo, jako by měl ruce z rosolu, a viděl pořádně jen v záblescích.\n");
+        /*.append(
             "Zkusil to znovu a dopadlo to stejně. Tak tedy, zadal zuby a cítil, že ztrácí vědomí, ještě než začal, tak to zkusím ještě jednou.\n")
         .append(
             "Sebral veškerou svou bolest a zbytek svých sil a svou dávno ztracenou hrdost a postavil je proti smrtelné úzkosti ryby a ryba se převrátila na bok a plula mírně na boku, dotýkajíc se téměř svým mečovitým výrůstkem bednění loďky, a začala míjet člun, dlouhá, nořící se do hloubky a široká, stříbrná a temně purpurově pruhovaná a ve vodě zdánlivě nekonečná.\n")
@@ -1159,7 +1159,7 @@ public class Book {
             "\"Nevěděla jsem, že žraloci mají tak pěkné, tak krásně vykrojené ocasní ploutve.\"\n")
         .append("\"Já taky ne,\" přidal se její společník.\n").append(
             "O kus dál po silnici stařec ve své chatrči zase spal. Spal opět tváří dolů a chlapec seděl vedle a díval se na něho. Starému se zdálo o lvech.\n");
-
+*/
     return sb.toString();
   }
 

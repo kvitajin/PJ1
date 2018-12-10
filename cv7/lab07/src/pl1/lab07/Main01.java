@@ -8,6 +8,9 @@
 package pl1.lab07;
 
 import pl1.shapes.manager.CanvasManager;
+import pl1.shapes.manager.Ellipse;
+import pl1.shapes.manager.Rectangle;
+import pl1.shapes.manager.Triangle;
 
 import java.util.ArrayList;
 

@@ -65,12 +65,12 @@ public class Arc {
    */
   public Arc(int x, int y, int width, int height, MyColor color,
       Direction8 direction8, double angle) {
-    xPos = x;
-    yPos = y;
+    this.xPos = x;
+    this.yPos = y;
     this.width = width;
     this.height = height;
     this.color = color;
-    direction = direction8;
+    this.direction = direction8;
     this.angle = angle;
     paint();
 

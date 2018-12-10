@@ -7,6 +7,7 @@
  ******************************************************************************/
 package pl1.shapes.manager;
 
+import java.awt.*;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -15,6 +16,7 @@ import javafx.application.Platform;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -57,6 +59,8 @@ public class CanvasManager {
 
   private MyColor colorOfBackground;
 
+  private static MyColor colorOfForeground;
+
   private boolean needRepaint = false;
 
   private int noPaint = 0;
@@ -69,6 +73,9 @@ public class CanvasManager {
 
   private ManipulationPanelController manipulationPanel;
 
+  //private GraphicsContext graphicsContext;
+
+
   private CanvasManager() {
     colorOfBackground = DEFAULT_BACKGROUND_COLOR;
     new P_CanvasPanel(WIDTH, HEIGHT);
@@ -79,6 +86,15 @@ public class CanvasManager {
     colorOfBackground = defaultBackgroundColor;
     repaint();
   }
+
+  public static void setColorOfForeground(MyColor color) {
+    colorOfForeground=color;
+  }
+
+  public void fill(Shape shape) {
+    CM.fill(shape);
+  }
+
 
   /***************************************************************************
    * Vykreslí všechny elementy.
@@ -127,6 +143,7 @@ public class CanvasManager {
     Platform.runLater(() -> createRoot(ps));
 
   }
+
 
   private void createRoot(Stage ps) {
     BorderPane root = new BorderPane();
