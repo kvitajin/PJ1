@@ -1,13 +1,17 @@
 import jdk.nashorn.api.scripting.URLReader;
 
-import java.io.IOException;
-import java.io.InputStream;
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.*;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.zip.ZipInputStream;
 
 public class Main {
   public static void main (String args[]) throws Exception  {
@@ -15,6 +19,8 @@ public class Main {
   NakladniAuto nakladak=new NakladniAuto("tmp", "MAN 1223", 20000);
   auto.prepravuj();
   nakladak.jed();
+
+  /**********************3**********************************/
   String url=IORoutines.readPage("http://blender.vsb.cz/supported-methods/");
   //String[] tmp=url.split("<img\\s.*src\\s*=\\s*\"([^\"]*)\".*>");
   String regex="<img\\s.*src\\s*=\\s*\"([^\"]*)\".*>";
@@ -55,9 +61,11 @@ public class Main {
       }
 
     }
-System.out.println( separatedUrlString);
-    try(InputStream in = separatedUrl.openStream()){
-      Files.copy(in, Paths.get("../photos/"+separatedUrlString.substring(beginFile, endFile)));
+    BufferedImage image=null;
+    //System.out.println(separatedUrlString);
+    try{image = ImageIO.read(separatedUrl);
+      File outputfile = new File(separatedUrlString.substring(beginFile, endFile));
+      ImageIO.write(image, "png", outputfile);
     }
     catch (IOException e){
       System.out.println("a zase je to v prdeli \t"+e);
@@ -65,7 +73,26 @@ System.out.println( separatedUrlString);
 
   }
 
+
+  /*************************4************************************/
+    try (FileInputStream in = new FileInputStream("Faust-Goethe.txt")) {
+      BufferedReader read = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
+      String tmp;
+      String book="";
+      while ((tmp=read.readLine())!=null){
+        book+=tmp;
+      }
+      String[] explodedGoethe = book.split("[\" ,'?]+");
+      int numberOfGoethesPieces = explodedGoethe.length;
+      System.out.println(numberOfGoethesPieces);
+    }
+
+
+
+
+
+
   //System.out.println(url);
-}
+  }
 
 }
