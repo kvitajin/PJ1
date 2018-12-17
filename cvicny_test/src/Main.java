@@ -75,10 +75,11 @@ public class Main {
 
 
   /*************************4************************************/
+    String book="";
+
     try (FileInputStream in = new FileInputStream("Faust-Goethe.txt")) {
       BufferedReader read = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
       String tmp;
-      String book="";
       while ((tmp=read.readLine())!=null){
         book+=tmp;
       }
@@ -86,6 +87,23 @@ public class Main {
       int numberOfGoethesPieces = explodedGoethe.length;
       System.out.println(numberOfGoethesPieces);
     }
+    int counter=0;
+    for (int j = 0; j < book.length(); j++) {
+      if (book.charAt(j)=='a'||
+          book.charAt(j)=='e' ||
+          book.charAt(j)=='i' ||
+          book.charAt(j)=='o' ||
+          book.charAt(j)=='u' ||
+          book.charAt(j)=='y' ||
+          book.charAt(j)=='ú' ||
+          book.charAt(j)=='ů' ||
+          book.charAt(j)=='ě' ||
+          book.charAt(j)=='ý' ||
+          book.charAt(j)=='á' ||
+          book.charAt(j)=='í' ||
+          book.charAt(j)=='é')++counter;
+    }
+    System.out.println(counter);
 
 
 

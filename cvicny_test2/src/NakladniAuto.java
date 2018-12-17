@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class NakladniAuto extends Auto{
+  private int hmotnostNakladu;
 
-public class NakladniAuto {
+  NakladniAuto(String typ, int hmotnostNakladu){
+    super(typ);
+    this.hmotnostNakladu=hmotnostNakladu;
+  }
+  @Override
+  public void jed() {
+    System.out.println(super.getTyp()+": jedu a vezu naklad o "+ this.hmotnostNakladu/1000.0 +" tun");
+  }
 }

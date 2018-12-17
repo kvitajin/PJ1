@@ -9,4 +9,3 @@
  * @author Jan Kožusznik
  * @version 0.1
  */
-package pj1.zt02;

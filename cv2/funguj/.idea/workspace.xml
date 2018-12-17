@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f506f25-5caf-4e26-b444-87d839fd470d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../cv/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../du/lab02/.idea/dictionaries/kvitajin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../du/lab02/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv3/lab03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv3/lab03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv3/lab03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv3/lab03/lab03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv3/lab03/src/pl1/lab03/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv3/lab03/src/pl1/shapes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem1/images/alien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem1/images/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem1/src/components/Manipulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SI2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SI3/SpaceInvaders" beforeDir="false" afterPath="$PROJECT_DIR$/../../SI3/SpaceInvaders" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv11/lab11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test/out/production/cvicny_test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test/out/production/cvicny_test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/BalikSlov.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/BalikSlov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/BalíkSlovZeSouboru.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/BalíkSlovZeSouboru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/NakladniAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/NakladniAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/OsobniAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/OsobniAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/PevnyBalikSlov.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/PevnyBalikSlov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/TransportOsob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/TransportOsob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kvi0029/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kvi0029/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Consts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Consts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../semSI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../semSI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spaceInvaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spaceInvaders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spaceInvaders/out/production/spaceInvaders/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spaceInvaders/out/production/spaceInvaders/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spaceInvaders/src/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spaceInvaders/src/sample.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +55,12 @@
     <session id="1296960116">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="425">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -72,7 +104,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pacman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
+            <state relative-caret-position="830">
               <caret line="123" column="47" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
             </state>
           </provider>
@@ -110,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,14 +159,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537894809532" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +230,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25933832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -235,7 +268,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="425">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -245,7 +278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pacman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
+        <state relative-caret-position="830">
           <caret line="123" column="47" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
         </state>
       </provider>

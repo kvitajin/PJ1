@@ -2,98 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f56b3a0f-4d6b-48cd-a0e1-774cfd3fd3b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Pic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/shit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/files/Faust-Goethe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/lab11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cv11/lab11/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/.idea/study_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/List/Programming (4)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/List/Programming (4)/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/List/Programming (5)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/List/Programming (5)/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (1)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (1)/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (2)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (2)/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (3)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming (3)/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Programming/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Quiz/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections/Queue and Stack/Quiz/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java. Collections1/.idea/Java._Collections1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java. Collections1/.idea/Java._Collections1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VojtovoAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../VojtovoAuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem1/images/alien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem1/images/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem1/src/components/Manipulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SI2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SI3/SpaceInvaders" beforeDir="false" afterPath="$PROJECT_DIR$/../../SI3/SpaceInvaders" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv10/lab10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/lab10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/lab10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv10/lab10/src/cz/kozusznik/pl1/lab10/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv11/lab11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv11/lab11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv12/lab12-networking/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv4/lab04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/shapes/Arc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv5/lab05/src/pl1/shapes/Arc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IClickable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IMoveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/IMoveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/lab07/Main01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Arc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/CanvasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/CanvasManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Ellipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/ManipulationPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/ManipulationPanelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Pacman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv7/lab07/src/pl1/shapes/manager/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv8/lab08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv8/lab08/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv8/lab08/src/cz/kozusznik/pl1/shapes/manager/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv8/lab08/src/cz/kozusznik/pl1/shapes/manager/Transformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/ImovableComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/ImovableComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Lab09Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Lab09Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/OccurencesComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/lab09/OccurencesComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/lab09/src/cz/kozusznik/pl1/shapes/manager/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Lab09Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Lab09Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/OccurencesComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/OccurencesComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/RadnomGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/lab09/RadnomGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Area.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Dimension.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Dimension.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$Prepravka.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8$Prepravka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Direction8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/MyColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/MyColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_CanvasPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_CanvasPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_RepaintCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager$P_RepaintCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/CanvasManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Ellipse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IClickable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IClickable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IPaintable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/IPaintable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/ManipulationPanelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/MyGraphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/MyGraphics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/manager/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/IMovable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/IMovable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/Mover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/shapes/tools/Mover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$INormalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics$INormalizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO$RemoveDiacritics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/IO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/JavaFXApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/JavaFXApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/Resizing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/bin/cz/kozusznik/pl1/utils/Resizing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cv9/zake/lab09justStatic+alter/src/cz/kozusznik/pl1/lab09/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test/out/production/cvicny_test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test/out/production/cvicny_test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/BalikSlov.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/BalikSlov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/BalíkSlovZeSouboru.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/BalíkSlovZeSouboru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/NakladniAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/NakladniAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/OsobniAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/OsobniAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/PevnyBalikSlov.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/PevnyBalikSlov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/TransportOsob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/TransportOsob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cvicny_test2/src/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cvicny_test2/src/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kvi0029/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kvi0029/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Consts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Consts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/out/production/sem1/components/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem1/src/components/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem1/src/components/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../semSI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../semSI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spaceInvaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spaceInvaders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spaceInvaders/out/production/spaceInvaders/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spaceInvaders/out/production/spaceInvaders/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spaceInvaders/src/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spaceInvaders/src/sample.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,8 +55,8 @@
     <session id="594330011">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -119,7 +68,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -159,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/House.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="408">
               <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding>
                 <element signature="e#591#592#0" expanded="true" />
@@ -174,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -191,16 +140,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pacman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
+            <state relative-caret-position="1343">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/IO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="85">
               <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
@@ -209,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CanvasPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="153">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
@@ -218,7 +167,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Arc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="136">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -227,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="85">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="e#3205#3206#0" expanded="true" />
@@ -237,7 +186,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/manipulation_panel.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor" />
@@ -346,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -378,13 +326,15 @@
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543400831010" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cv11/lab11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../funguj" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -450,7 +400,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5554336" visible="true" weight="0.23852721" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5554336" visible="true" weight="0.2411953" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -505,7 +455,7 @@
     <entry file="jar:///usr/java/jdk1.8.0_181-i586/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/House.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="408">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="e#591#592#0" expanded="true" />
@@ -516,50 +466,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab02.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CanvasPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Arc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab02.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CanvasPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="85">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#3205#3206#0" expanded="true" />
@@ -571,6 +514,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/manipulation_panel.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
