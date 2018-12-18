@@ -26,7 +26,9 @@ public class Player extends Manipulate implements Consts {
     imgSmall= ImageIO.read(new File("images/player.png"));
     img=resize(imgSmall, size, size);
   }
-  private static BufferedImage resize(BufferedImage img, int newW, int newH) {          /**https://stackoverflow.com/questions/9417356/bufferedimage-resize**/
+
+  /**https://stackoverflow.com/questions/9417356/bufferedimage-resize**/
+  private static BufferedImage resize(BufferedImage img, int newW, int newH) {
     Image tmp = img.getScaledInstance(newW, newH, Image.SCALE_SMOOTH);
     BufferedImage dimg = new BufferedImage(newW, newH, BufferedImage.TYPE_INT_ARGB);
 
@@ -36,29 +38,41 @@ public class Player extends Manipulate implements Consts {
 
     return dimg;
   }
-  public int getSizeX() {
+  public int getSize() {
     return size;
   }
 
-  public void setSizeX(int size) {
+  public void setSize(int size) {
     this.size = size;
   }
 
-  public void pohyb(int dir){
-    if (this.getPosX()+dir<WINDOW_X && this.getPosX()+dir>0) {
-      this.setPosX(this.getPosX() + dir);
+  public void pohyb(){
+    if (this.getPosX()+this.dir+this.getSize()<WINDOW_X && this.getPosX()+this.dir>0) {
+      this.setPosX(this.getPosX() + this.dir);
     }
+    else{
+      System.out.println("o kurwa");
+    }
+
   }
   public void pushKey(KeyEvent e){
     if (e.getKeyCode()==KeyEvent.VK_RIGHT){
-      pohyb(STEP);
+      dir=STEP;
     }
     else if (e.getKeyCode()==KeyEvent.VK_LEFT){
-      pohyb(-STEP);
+      dir=-STEP;
+    }
+    else if (e.getKeyCode()==KeyEvent.VK_SPACE){
+      //todo faya!!
     }
   }
   public void holdKey(KeyEvent e){
-
+    if (e.getKeyCode()==KeyEvent.VK_RIGHT){
+      dir=0;
+    }
+    else if (e.getKeyCode()==KeyEvent.VK_LEFT){
+      dir=0;
+    }
   }
 
 

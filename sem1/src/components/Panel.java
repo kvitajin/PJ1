@@ -2,17 +2,48 @@ package components;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 
-public class Panel extends JPanel implements Consts  {
+public class Panel extends JPanel implements Runnable, Consts  {
   private Player player;
   Dimension dimension;
+  private Thread runBitch;
 
   public Panel() throws IOException {
+    addKeyListener(new Pohyb());
+    setFocusable(true);
     dimension = new Dimension(WINDOW_X, WINDOW_Y);
     setBackground(BACKGROUND_COLOR);
-    player= new Player(300,320,30);
+    player= new Player(300,320,30);       //todo tohle do consts
+    runBitch= new Thread(this);
+    runBitch.start();
+  }
 
+  @Override
+  public void run(){
+    while (true){
+      player.pohyb();
+      repaint();
+      System.out.println("d");
+      try {
+        Thread.sleep(10);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+  }
+
+  class Pohyb extends KeyAdapter{
+    @Override
+    public void keyPressed(KeyEvent e){
+      player.pushKey(e);
+    }
+    @Override
+    public void keyReleased(KeyEvent e){
+      player.holdKey(e);
+    }
   }
 
 

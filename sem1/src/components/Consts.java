@@ -9,5 +9,5 @@ public interface Consts {
   public final Color      BACKGROUND_COLOR = Color.black;
   public final Color      PLAYER_COLOR = Color.green;
   public final String     PLAYER_PATH = "images/player.png";
-  public final int        STEP = 5;
+  public final int        STEP = 1;
 }

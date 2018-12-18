@@ -19,10 +19,11 @@ public class Window extends JFrame implements Consts{
   Window() throws IOException {
     //this.frame = new Pane();
     add(new Panel());
-    setTitle("Space Invaders");
+    setTitle("Space Invaders by Kvi0029");
     setDefaultCloseOperation(EXIT_ON_CLOSE);
     setSize(WINDOW_X, WINDOW_Y);
     setBounds(0, 0,WINDOW_X, WINDOW_Y);
+    System.out.println("tu");
     //setResizable(false);
    /* frame.setBounds(760,340,this.sizeX, this.sizeY);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
