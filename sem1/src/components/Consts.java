@@ -9,5 +9,9 @@ public interface Consts {
   public final Color      BACKGROUND_COLOR = Color.black;
   public final Color      PLAYER_COLOR = Color.green;
   public final String     PLAYER_PATH = "images/player.png";
+  public final String     PLAYER_SHOT = "images/shot.png";
+  public final String     ENEMY_SHOT = "images/enemyShot.png";
   public final int        STEP = 1;
+  public final int        SHOT_SIZE_Y = 4;
+  public final int        SHOT_SIZE_X = 1;
 }
