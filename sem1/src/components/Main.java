@@ -6,8 +6,6 @@ import java.io.IOException;
 
 public class Main extends JFrame {
   public static void main (String args[]){
-//    Window window = new Window();
-//    window.setVisible(true);
 
     EventQueue.invokeLater(() -> {
       Window win = null;
@@ -16,7 +14,9 @@ public class Main extends JFrame {
       } catch (IOException e) {
         e.printStackTrace();
       }
-      win.setVisible(true);
+      if (win != null) {
+        win.setVisible(true);
+      }
     });
   }
 }

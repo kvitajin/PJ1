@@ -11,7 +11,11 @@ public interface Consts {
   public final String     PLAYER_PATH = "images/player.png";
   public final String     PLAYER_SHOT = "images/shot.png";
   public final String     ENEMY_SHOT = "images/enemyShot.png";
+  public final String     ENEMY_PATH = "images/alien.png";
   public final int        STEP = 1;
   public final int        SHOT_SIZE_Y = 4;
   public final int        SHOT_SIZE_X = 1;
+  public final int        SHIP_POS_X = 300;
+  public final int        SHIP_POS_Y = 320;
+  public final int        SIZE = 30;
 }

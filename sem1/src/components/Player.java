@@ -16,7 +16,6 @@ public class Player extends Manipulate implements Consts, IResizeable, IMovable 
   private int posY;
   private int size;
 
-  public ImageIcon playerShape;
   public BufferedImage imgSmall;
   private BufferedImage img;
   private int dir;

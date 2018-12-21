@@ -1,34 +1,32 @@
 package components;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
-public class Fire implements Consts, IResizeable, IMovable {
+public class Enemy implements IResizeable, Consts{
+  public boolean alive=true;
+  private BufferedImage img;
+  private int x, y, value;
 
-  public boolean flying = false;
-  private BufferedImage img, tmp;
-  private int x, y;
-  String imgSrc;
-  private boolean charged=true;
-
-
-  Fire(String imgSrc, int x, int y) throws IOException {
-      this.tmp = ImageIO.read(new File(imgSrc));
-      this.img = resize(tmp, SHOT_SIZE_X, SHOT_SIZE_Y);
-      this.x = x;
-      this.y = y;
-      this.imgSrc=imgSrc;
-
-
-
-
-    //FireSize one= new FireSize();
+  Enemy(int x, int y, int value) throws IOException {
+    BufferedImage tmp = ImageIO.read(new File(ENEMY_PATH));
+    this.img = resize(tmp, SIZE, SIZE);
+    this.x=x;
+    this.y=y;
+    this.value=value;
   }
+  void moveSide(int step){
+    this.x+=step;
+  }
+  void modeDown(int step){
+    this.y+=step;
+  }
+
+
+
   /**https://stackoverflow.com/questions/9417356/bufferedimage-resize**/
   @Override
   public BufferedImage resize(BufferedImage img, int newW, int newH) {
@@ -58,19 +56,10 @@ public class Fire implements Consts, IResizeable, IMovable {
   }
 
   public BufferedImage getImg() {
-    return this.img;
+    return img;
   }
 
   public void setImg(BufferedImage img) {
     this.img = img;
-  }
- @Override
-  public void pohyb() {
-    if (this.imgSrc.equals(PLAYER_SHOT)){
-      this.y-=2*STEP;
-    }
-    else if(this.imgSrc.equals(ENEMY_SHOT)){
-      this.y+=STEP;
-    }
   }
 }
