@@ -20,3 +20,8 @@ public class Main extends JFrame {
     });
   }
 }
+//TODO1 pohyb enemaku
+//TODO2 pri sestrelu pridat score a vypsat
+//TODO 3 cas prebijeni
+//TODO 4 enemy strelba
+//TODO 5 (bunkry)

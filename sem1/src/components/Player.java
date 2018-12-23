@@ -16,7 +16,6 @@ public class Player extends Manipulate implements Consts, IResizeable, IMovable 
   private int posY;
   private int size;
 
-  public BufferedImage imgSmall;
   private BufferedImage img;
   private int dir;
 
@@ -25,7 +24,7 @@ public class Player extends Manipulate implements Consts, IResizeable, IMovable 
     this.posY=posY;
     this.posX=posX;
     this.size=size;
-    imgSmall= ImageIO.read(new File(PLAYER_PATH));
+    BufferedImage imgSmall = ImageIO.read(new File(PLAYER_PATH));
     img=resize(imgSmall, size, size);
   }
 
@@ -48,7 +47,7 @@ public class Player extends Manipulate implements Consts, IResizeable, IMovable 
 //    }
 
   }
-  public void pushKey(KeyEvent e) throws IOException {
+  public void pushKey(KeyEvent e){
     if (e.getKeyCode()==KeyEvent.VK_RIGHT){
       dir=STEP;
     }

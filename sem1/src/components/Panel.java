@@ -10,50 +10,79 @@ import java.util.Iterator;
 
 public class Panel extends JPanel implements Runnable, Consts  {
   private Player player;
-  Dimension dimension;
-  private Thread runBitch;
-  public ArrayList<Fire> shots;
-  public Fire fire;
-  public ArrayList<Enemy> enemies;
+  private ArrayList<Fire> shots;
+  private Fire fire;
+  private ArrayList<Enemy> enemies;
+  private int enemyMove = 0;
+  private int score=0;
 
 
   public Panel() throws IOException {
     addKeyListener(new Pohyb());
     setFocusable(true);
-    dimension = new Dimension(WINDOW_X, WINDOW_Y);
+    //Dimension dimension = new Dimension(WINDOW_X, WINDOW_Y);
     setBackground(BACKGROUND_COLOR);
     this.shots=new ArrayList<>();
     player= new Player(SHIP_POS_X,SHIP_POS_Y,SIZE);
     enemies = new ArrayList<>();
     for (int i = 0; i < 5; ++i){
       for(int j = 0; j < 3; ++j){
-        Enemy enemy = new Enemy(50+i*3*SIZE/2,50+j*3*SIZE/2, 10*j);
+        Enemy enemy = new Enemy(50+i*3*SIZE/2,50+j*3*SIZE/2, (3-j)*10);
         this.enemies.add(enemy);
 
       }
     }
-    runBitch= new Thread(this);
+
+    Thread runBitch = new Thread(this);
     runBitch.start();
   }
 
   @Override
   public void run() {
+    long timeBefore, timeAfter, dif;
     while (true) {
+      timeBefore = System.currentTimeMillis();
       player.pohyb();
       if (shots.size() > 0) {
         for (Fire tmp : shots) {
           tmp.pohyb();
         }
       }
+      if (this.enemyMove%3 == 0){
+        if (enemies.size()>0){
+          for (Enemy enemy : enemies){
+            enemy.pohyb();
+          }
+          if (enemies.get(1).getSideStep()<300){
+            for (Enemy enemy : enemies){
+              enemy.incSideStep();
+            }
+          }
+          else {
+            for (Enemy enemy : enemies){
+              enemy.resetSideStep();
+              enemy.changeDir();
+            }
+          }
+        }
+      }
+      ++enemyMove;
       collision();
       repaint();
+      timeAfter = System.currentTimeMillis();
+      dif = timeAfter - timeBefore;
+      long sleep=10-dif;
+      if (sleep<0){
+        sleep=1;
+      }
       try {
-        Thread.sleep(10);
+        Thread.sleep(sleep);
       } catch (InterruptedException e) {
         e.printStackTrace();
       }
     }
   }
+
   private void collision(){
   ArrayList <Enemy> eraseEnemy = new ArrayList<>();
   ArrayList <Fire> eraseFire = new ArrayList<>();
@@ -63,6 +92,7 @@ public class Panel extends JPanel implements Runnable, Consts  {
             f.getX() > enemy.getX()        &&
             f.getY() < enemy.getY() + SIZE &&
             f.getY() > enemy.getY()) {
+          this.score += enemy.getValue();
           eraseEnemy.add(enemy);
           eraseFire.add(f);
         }
@@ -72,18 +102,10 @@ public class Panel extends JPanel implements Runnable, Consts  {
     shots.removeAll(eraseFire);
   }
 
-
-
-
-
   class Pohyb extends KeyAdapter implements Consts{
     @Override
     public void keyPressed(KeyEvent e){
-      try {
         player.pushKey(e);
-      } catch (IOException e1) {
-        e1.printStackTrace();
-      }
       if (e.getKeyCode()==KeyEvent.VK_SPACE){
         try {
           fire= new Fire(PLAYER_SHOT, player.getPosX()+player.getSize()/2, player.getPosY()-SHOT_SIZE_Y);
@@ -119,6 +141,10 @@ public class Panel extends JPanel implements Runnable, Consts  {
     }
   }
 
+  private void paintScore(Graphics graphics){
+    graphics.drawString("Score: " + this.score, 10, 20);
+  }
+
 
   @Override
   public void paintComponent(Graphics graphics){
@@ -135,7 +161,7 @@ public class Panel extends JPanel implements Runnable, Consts  {
       paintEnemies(graphics);
     }
 
-
+    paintScore(graphics);
 
   }
 
